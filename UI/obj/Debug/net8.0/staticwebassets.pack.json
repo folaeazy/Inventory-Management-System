@@ -1,0 +1,53 @@
+{
+  "Files": [
+    {
+      "Id": "/home/eazynyc/projects/Inventory Management/UI/obj/Debug/net8.0/scopedcss/projectbundle/UI.bundle.scp.css",
+      "PackagePath": "staticwebassets/UI.bundle.scp.css"
+    },
+    {
+      "Id": "/home/eazynyc/projects/Inventory Management/UI/wwwroot/css/app.css",
+      "PackagePath": "staticwebassets/css/app.css"
+    },
+    {
+      "Id": "/home/eazynyc/projects/Inventory Management/UI/wwwroot/css/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/home/eazynyc/projects/Inventory Management/UI/wwwroot/css/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/home/eazynyc/projects/Inventory Management/UI/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "/home/eazynyc/projects/Inventory Management/UI/wwwroot/icon-192.png",
+      "PackagePath": "staticwebassets/icon-192.png"
+    },
+    {
+      "Id": "/home/eazynyc/projects/Inventory Management/UI/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/home/eazynyc/projects/Inventory Management/UI/wwwroot/sample-data/weather.json",
+      "PackagePath": "staticwebassets/sample-data/weather.json"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.UI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.UI.props",
+      "PackagePath": "build\\UI.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.UI.props",
+      "PackagePath": "buildMultiTargeting\\UI.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.UI.props",
+      "PackagePath": "buildTransitive\\UI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

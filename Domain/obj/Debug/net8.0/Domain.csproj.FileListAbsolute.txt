@@ -1,0 +1,11 @@
+/home/eazynyc/projects/Inventory Management/Domain/bin/Debug/net8.0/Domain.deps.json
+/home/eazynyc/projects/Inventory Management/Domain/bin/Debug/net8.0/Domain.dll
+/home/eazynyc/projects/Inventory Management/Domain/bin/Debug/net8.0/Domain.pdb
+/home/eazynyc/projects/Inventory Management/Domain/obj/Debug/net8.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/eazynyc/projects/Inventory Management/Domain/obj/Debug/net8.0/Domain.AssemblyInfoInputs.cache
+/home/eazynyc/projects/Inventory Management/Domain/obj/Debug/net8.0/Domain.AssemblyInfo.cs
+/home/eazynyc/projects/Inventory Management/Domain/obj/Debug/net8.0/Domain.csproj.CoreCompileInputs.cache
+/home/eazynyc/projects/Inventory Management/Domain/obj/Debug/net8.0/Domain.dll
+/home/eazynyc/projects/Inventory Management/Domain/obj/Debug/net8.0/refint/Domain.dll
+/home/eazynyc/projects/Inventory Management/Domain/obj/Debug/net8.0/Domain.pdb
+/home/eazynyc/projects/Inventory Management/Domain/obj/Debug/net8.0/ref/Domain.dll
