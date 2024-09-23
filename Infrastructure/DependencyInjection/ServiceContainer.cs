@@ -9,9 +9,9 @@ namespace Infrastructure.DependencyInjection
 {
     public static class ServiceContainer
     {
-        public static IServiceCollection AddInfraService(this IServiceCollection services, IConfiguration config)
+        public static IServiceCollection AddInfraService( this IServiceCollection services, IConfiguration config)
         {   //configure database
-            services.AddDbContext<AppDbContext>(Db => Db.UseSqlServer(config.GetConnectionString("Default")), ServiceLifetime.Scoped);
+            services.AddDbContext<AppDbContext>(Db => Db.UseSqlServer(config.GetConnectionString("DefaultConnection")), ServiceLifetime.Scoped);
             services.AddAuthentication(options => {
                 options.DefaultScheme = IdentityConstants.ApplicationScheme;
                 options.DefaultSignInScheme = IdentityConstants.ExternalScheme;

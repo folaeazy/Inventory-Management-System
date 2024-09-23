@@ -2,6 +2,7 @@ using Application.Extensions.Identities;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
+using Microsoft.Extensions.Configuration;
 
 
 
@@ -12,22 +13,36 @@ namespace Infrastructure.DataAccess
         public AppDbContext(DbContextOptions<AppDbContext> options)
         : base(options)
         {
-            
         }
     }
 
+    
+    // public class AppDbContext(DbContextOptions<AppDbContext> options)
+    // : IdentityDbContext<ApplicationUser>(options)
+    // {
+
+    // }
 
 
-    public class DesignTimeDbContextFactory : IDesignTimeDbContextFactory<AppDbContext>
-    {
-        public AppDbContext CreateDbContext(string[] args)
-        {
-            var optionsBuilder = new DbContextOptionsBuilder<AppDbContext>();
-            optionsBuilder.UseSqlServer("Server=(localhost;Database=FolaIMS; Trusted_Connection=true; Trust Server Certificate=true;");
+    // public class DesignTimeDbContextFactory : IDesignTimeDbContextFactory<AppDbContext>
+    // {
+    //     public AppDbContext CreateDbContext(string[]? args = null)
+    //     {
+    //         var optionsBuilder = new DbContextOptionsBuilder<AppDbContext>();
 
-            return new AppDbContext(optionsBuilder.Options);
-        }
-    }
+    //         // Load the connection string from appsettings.json
+    //         var configuration = new ConfigurationBuilder()
+    //             .SetBasePath(Directory.GetCurrentDirectory())
+    //             .AddJsonFile("appsettings.json")
+    //             .Build();
+
+    //         optionsBuilder.UseSqlServer(configuration.GetConnectionString("DefaultConnection"));
+
+    //         return new AppDbContext(optionsBuilder.Options);
+    //     }
+    // }
+
+    
 }
 
 

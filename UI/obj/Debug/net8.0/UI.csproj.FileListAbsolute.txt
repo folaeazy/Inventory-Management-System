@@ -199,3 +199,4 @@
 /home/eazynyc/projects/Inventory Management/UI/bin/Debug/net8.0/Infrastructure.pdb
 /home/eazynyc/projects/Inventory Management/UI/obj/Debug/net8.0/UI.MvcApplicationPartsAssemblyInfo.cs
 /home/eazynyc/projects/Inventory Management/UI/obj/Debug/net8.0/UI.genruntimeconfig.cache
+/home/eazynyc/projects/Inventory Management/UI/obj/Debug/net8.0/UI.sourcelink.json
